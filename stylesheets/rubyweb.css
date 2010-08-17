@@ -1,0 +1,190 @@
+@font-face {
+	font-family: 'ChunkFiveRegular';
+	src: url('fonts/Chunkfive-webfont.eot');
+	src: local('☺'), url('fonts/Chunkfive-webfont.woff') format('woff'), url('fonts/Chunkfive-webfont.ttf') format('truetype'), url('fonts/Chunkfive-webfont.svg#webfontb5K2fJwj') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font: 16px/1.5em 'Gill Sans MT', 'Gill Sans', 'Lucida Grande', Lucida, Verdana, sans-serif;
+}
+
+a {
+	color: #911000;
+	font-weight: bold;
+}
+
+a:focus {
+	outline: 1px dotted invert
+}
+
+hr {
+	border-color: #ccc;
+	border-style: solid;
+	border-width: 1px 0 0;
+	clear: both;
+	height: 0
+}
+
+h1 {
+	font: normal 28px 'ChunkFiveRegular', Helvetica, Arial, Geneva, sans-serif;
+}
+
+h2 {
+	font: normal 24px 'ChunkFiveRegular', Helvetica, Arial, Geneva, sans-serif;
+}
+
+h3 {
+	font: normal 18px 'ChunkFiveRegular', Helvetica, Arial, Geneva, sans-serif;
+}
+
+h1 a {
+	text-decoration: none;
+	font-weight: normal;
+	font-style: normal;
+}
+
+h2 a {
+	text-decoration: none;
+	font-weight: normal;
+	font-style: normal;
+}
+
+h3 a {
+	text-decoration: none;
+	font-weight: normal;
+	font-style: normal;
+}
+
+ol {
+	list-style: decimal
+}
+
+ul {
+	list-style: square
+}
+
+li {
+	margin-left: 30px
+}
+
+p,dl,hr,h1,h2,h3,h4,h5,h6,ol,ul,pre,table,address,fieldset {
+	margin-bottom: 20px
+}
+
+#container {
+	width: 700px;
+	margin: 10px auto;
+}
+
+h1#heading {
+	font-size: 48px;
+	text-align: center;
+	background-color: #911000;
+	border: 3px solid #560600;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+	background-image: -webkit-gradient(
+	    linear,
+	    left top,
+	    left bottom,
+	    color-stop(0.43, rgb(145,17,0)),
+	    color-stop(0.86, rgb(86,6,0))
+	);
+	background-image: -moz-linear-gradient(
+	    center top,
+	    rgb(145,17,0) 43%,
+	    rgb(86,6,0) 86%
+	);
+}
+
+h1#heading a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: normal;
+	font-style: normal;
+}
+
+ul#nav {
+	font: normal 18px 'ChunkFiveRegular', Helvetica, Arial, Geneva, sans-serif;
+	margin: 0 0 20px;
+}
+
+ul#nav li {
+	display: inline;
+	list-style-type: none;
+	margin: 0 10px 0 0;
+}
+
+ul#nav li a {
+	text-decoration: none;
+	font-weight: normal;
+	font-style: normal;
+}
+
+ul#nav li a:hover {
+	color: #fff;
+	background-color: #911000;
+}
+
+#banner {
+	overflow: auto;
+}
+
+#banner #promo {
+	width: 340px;
+	height: 160px;
+	text-align: center;
+	background-color: gray;
+	position: relative;
+	float: left;
+	margin-right: 20px;
+}
+
+#banner #register {
+	width: 160px;
+	height: 160px;
+	text-align: center;
+	background-color: gray;
+	float: left;
+	margin-right: 20px;
+}
+
+#banner #sponsor {
+	width: 160px;
+	height: 160px;
+	text-align: center;
+	background-color: gray;
+	float: left;
+}
+
+#stage {
+	overflow: auto;
+	margin-top: 10px;
+}
+
+#stage #side {
+	float: left;
+	width: 220px;
+}
+
+#stage #content {
+	float: right;
+	width: 460px;
+}
+
+h3 {
+	clear: both;
+}
+
+img.gravatar {
+	float: right;
+	margin-left: 8px;
+}
