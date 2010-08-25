@@ -114,13 +114,13 @@ h1#heading a {
 
 ul#nav {
 	font: normal 18px 'ChunkFiveRegular', Helvetica, Arial, Geneva, sans-serif;
-	margin: 0 0 20px;
+	margin-bottom: 20px;
 }
 
 ul#nav li {
 	display: inline;
 	list-style-type: none;
-	margin: 0 10px 0 0;
+	margin-right: 10px;
 }
 
 ul#nav li a {
@@ -136,33 +136,37 @@ ul#nav li a:hover {
 
 #banner {
 	overflow: auto;
+	margin-bottom: 20px;
 }
 
-#banner #promo {
+#banner #promo1 {
 	width: 340px;
 	height: 160px;
 	text-align: center;
-	background-color: gray;
 	position: relative;
-	float: left;
 	margin-right: 20px;
+	float: left;
+	position: relative;
+	overflow: hidden;
 }
 
-#banner #register {
+#banner #promo2 {
 	width: 160px;
 	height: 160px;
 	text-align: center;
-	background-color: gray;
-	float: left;
 	margin-right: 20px;
+	float: left;
+	position: relative;
+	overflow: hidden;
 }
 
-#banner #sponsor {
+#banner #promo3 {
 	width: 160px;
 	height: 160px;
 	text-align: center;
-	background-color: gray;
 	float: left;
+	position: relative;
+	overflow: hidden;
 }
 
 #stage {

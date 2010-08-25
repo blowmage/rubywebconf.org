@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ruby|Web Conference - {{ page.title }}</title>
+<link rel="stylesheet" type="text/css" media="all" href="stylesheets/reset.css" />
+<link rel="stylesheet" type="text/css" media="all" href="stylesheets/rubyweb.css" />
+<!-- include jQuery library -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<!-- include Cycle plugin -->
+<script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.slideshow').cycle({ fx: 'fade', random: 1 });
+});
+</script>
+</head>
+
+<body>
+
+<div id="container">
+
+<h1 id="heading">
+  <a href="index">Ruby|Web Conference 2010</a>
+</h1>
+
+<ul id="nav">
+  <li><a href="/">Home</a></li>
+  <li><a href="http://bit.ly/rubyweb2010register">Register</a></li>
+  <li><a href="/sessions">Sessions</a></li>
+  <li><a href="/speakers">Speakers</a></li>
+  <li><a href="/prospectus">Sponsors</a></li>
+</ul>
+
+<div id="banner">
+
+  <div id="promo1">
+	<h2><a href="http://bit.ly/rubyweb2010register">Register Right Now!</a></h2>
+    <p>Registration is just <strong>$179</strong> for two days of awesome Ruby and web hacking in the beautiful Wasatch mountains. Breakfast and lunch included. Don't miss it! <a href="http://bit.ly/rubyweb2010register">Register now!</a></strong></p>
+  </div>
+
+  <div id="promo2">
+		<div class="slideshow">
+	      <a href="speakers#naudo" title="Make Friends and Influence People with HTML5"><img src="http://www.gravatar.com/avatar/98f3f6a7db011a3b41a5d1fcb7da1b3c.jpg?s=160"></a>
+	      <a href="speakers#robotdeathsquad" title="Dr. Strangelove or: How I Learned to Stop Worrying and Love HTML, CSS and Javascript"><img src="http://www.gravatar.com/avatar/4a97365f6150356bcf0b136602862af1.jpg?s=160"></a>
+	      <a href="speakers#TotherAlistair" title="The 7 Habits of Highly Successful Samurai, and How That Helps Rubyists"><img src="images/alistair.jpg"></a>
+	      <a href="speakers#baroquebobcat" title="Extreme Performance with Mirah and Dubious"><img src="images/baroquebobcat.jpg"></a>
+	      <a href="speakers#elight" title="iOS Eye for the Rails Guy"><img src="http://www.gravatar.com/avatar/7a0d8ff2f48c5602cd8db1d115af0168.jpg?s=160"></a>
+	      <a href="speakers#patmaddox" title="Takin' the railway down to the seaside"><img src="http://www.gravatar.com/avatar/112ce0021890da348d6e337b1d94b9ef.jpg?s=160"></a>
+	      <a href="speakers#bmidgley" title="Coming soon... 3D without plugins"><img src="http://www.gravatar.com/avatar/06f6cc96aa8171b21a2b34ef9c0dc55c.jpg?s=160"></a>
+	      <a href="speakers#LuigiMontanez" title="Search Friendly Web Development"><img src="http://www.gravatar.com/avatar/0db5aeb4cf9fc1e8e411a1d9eda82917.jpg?s=160"></a>
+	  </div>
+  </div>
+
+  <div id="promo3">
+	<div class="slideshow">
+      <a href="speakers#objo" title="Your Customers Aren't Stupid and Your Coworkers Are Not Incompetent"><img src="http://www.gravatar.com/avatar/2c9e6ea1e4bbb9c8e514f1312a9679e1.jpg?s=160"></a>
+      <a href="speakers#drichards" title="Integrating Web Apps"><img src="images/drichards.jpg"></a>
+      <a href="speakers#bsbodden" title="Trellis: A Component-Oriented Web Framework"><img src="http://www.gravatar.com/avatar/270b71aa52e822fa5920e618fd693d0c.jpg?s=160"></a>
+      <a href="speakers#therubymug" title="No Sudo for You!"><img src="http://www.gravatar.com/avatar/8bdd34f68289369100813fbb2a061620.jpg?s=160"></a>
+      <a href="speakers#padwasabimasala" title="Dirt Simple Datamining"><img src="http://www.gravatar.com/avatar/daf353d8d2364e59b33c431755a057d0.jpg?s=160"></a>
+      <a href="speakers#whitethunder922" title="How TDD and CDD make your apps suck less"><img src="http://www.gravatar.com/avatar/e8eee0f62cf2224211b33825502a2a5c.jpg?s=160"></a>
+      <a href="speakers#charlesmaxwood" title="The Power of Middleware - Building Your Own Mini Web Framework on Rack"><img src="http://www.gravatar.com/avatar/2afbbb3bfaa767095abf10b92c386b9c.jpg?s=160"></a>
+  </div>
+  </div>
+
+</div>
+
+<div id="stage">
+
+  <div id="content">
+    {{ content }}
+  </div>
+
+  <div id="side">
+
+	<p><strong>September 9-10, 2010</strong><br>
+	Cliff Lodge<br>
+	<a href="http://www.snowbird.com/">Snowbird Ski and Summer Resort</a><br>
+	Highway 210, Little Cottonwood Canyon<br>
+	Snowbird, UT 84092</p>
+    <h3><a href="http://www.snowbird.com/">Stay at Snowbird</a></h3>
+    <p>Stay in the Cliff Lodge for just $89 a night. Be sure to enter the <strong>2BB5Q3</strong> group code. <a href="http://www.snowbird.com/">Reserve now!</a></strong></p>
+    <hr>
+    <p>Follow us on <a href="https://twitter.com/rubywebconf">twitter</a> and our <a href="http://www.facebook.com/event.php?eid=108737102510287">facebook event</a>!</p>
+    <p>You got your Web in my Ruby conference! No, you got your Ruby in my Web conference! Can't we all just get along?</p>
+  </div>
+
+</div>
+
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-2009884-3");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>
